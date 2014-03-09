@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 6381b18dbfa93034192dff055529609d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Armure_de_metal006
+    100002: Armure_de_metal007
+    100004: Armure_de_metal008
+    100006: Armure_de_metal009
+    100008: Bone_catapulte_a_petard
+    100010: Bone_catapulte_pertard_noAnim
+    100012: //RootNode
+    100014: Object008
+    100016: Object009
+    100018: Object010
+    100020: projectile_petar002
+    100022: sling_shoot_petar002
+    400000: Armure_de_metal006
+    400002: Armure_de_metal007
+    400004: Armure_de_metal008
+    400006: Armure_de_metal009
+    400008: Bone_catapulte_a_petard
+    400010: Bone_catapulte_pertard_noAnim
+    400012: //RootNode
+    400014: Object008
+    400016: Object009
+    400018: Object010
+    400020: projectile_petar002
+    400022: sling_shoot_petar002
+    2300000: Armure_de_metal006
+    2300002: Armure_de_metal007
+    2300004: Armure_de_metal008
+    2300006: Armure_de_metal009
+    2300008: Object008
+    2300010: sling_shoot_petar002
+    3300000: Armure_de_metal006
+    3300002: Armure_de_metal007
+    3300004: Armure_de_metal008
+    3300006: Armure_de_metal009
+    3300008: Object008
+    3300010: sling_shoot_petar002
+    4300000: Armure_de_metal006
+    4300002: Object008
+    4300004: Object009
+    4300006: projectile_petar002
+    4300008: Armure_de_metal007
+    4300010: Armure_de_metal008
+    4300012: Armure_de_metal009
+    4300014: Object010
+    4300016: sling_shoot_petar002
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Object009
+    13700002: Object010
+    13700004: projectile_petar002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

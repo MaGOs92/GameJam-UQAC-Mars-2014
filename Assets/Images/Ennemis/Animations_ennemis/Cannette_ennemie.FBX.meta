@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: dc8c2e38a56ad1a4fa9510cbaf1947f7
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: bone_bras_droit002
+    100002: bone_bras_droit003
+    100004: bone_pognet002
+    100006: bone_pognet003
+    100008: bras_droit002
+    100010: bras_droit003
+    100012: //RootNode
+    100014: connectBone003
+    100016: connectBone004
+    100018: Cylinder001
+    100020: hanche_droitBoite_kleenex002
+    100022: Hanche_gaucheBoite_kleenex002
+    100024: Jambe__gauche_boite_kleenex003
+    100026: Jambe_droit_boite_kleenex002
+    100028: jambe_droitBoite_kleenex002
+    100030: jambe_gaucheBoite_kleenex002
+    100032: Lien_bone2Boite_kleenex002
+    100034: lien_boneBoite_kleenex002
+    100036: Root_jambes_Cannette
+    400000: bone_bras_droit002
+    400002: bone_bras_droit003
+    400004: bone_pognet002
+    400006: bone_pognet003
+    400008: bras_droit002
+    400010: bras_droit003
+    400012: //RootNode
+    400014: connectBone003
+    400016: connectBone004
+    400018: Cylinder001
+    400020: hanche_droitBoite_kleenex002
+    400022: Hanche_gaucheBoite_kleenex002
+    400024: Jambe__gauche_boite_kleenex003
+    400026: Jambe_droit_boite_kleenex002
+    400028: jambe_droitBoite_kleenex002
+    400030: jambe_gaucheBoite_kleenex002
+    400032: Lien_bone2Boite_kleenex002
+    400034: lien_boneBoite_kleenex002
+    400036: Root_jambes_Cannette
+    4300000: Cylinder001
+    4300002: Jambe_droit_boite_kleenex002
+    4300004: Jambe__gauche_boite_kleenex003
+    4300006: bras_droit002
+    4300008: bras_droit003
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: bras_droit002
+    13700002: bras_droit003
+    13700004: Cylinder001
+    13700006: Jambe__gauche_boite_kleenex003
+    13700008: Jambe_droit_boite_kleenex002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

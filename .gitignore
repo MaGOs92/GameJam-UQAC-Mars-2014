@@ -1,0 +1,26 @@
+/Temp
+/*.csproj
+/*.sln
+/*.suo
+/Library/assetDatabase3.LOCAL
+/Library/assetDatabase3.REMOTE
+/Library/metadata
+/Library/assetDatabase3.BASE
+
+# IDE Specific
+*.csproj
+*.pidb
+*.sln
+*.userprefs
+*.unityproj
+*.suo
+/Library/
+/Temp/
+
+# SourceTree Patch against .gitignore_global on Windows
+!*.exe
+!*.dll
+/obj
+/Library
+/Library
+/SuperTrashEvilVacuumOfDoom_Data
