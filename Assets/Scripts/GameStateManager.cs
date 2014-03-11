@@ -113,18 +113,18 @@ public class GameStateManager : MonoBehaviour
 
 
         playerLoots = new Dictionary<Loot_Enum, int>();
-        playerLoots.Add(Loot_Enum.Bonbonne_de_gaz, 90);
-        playerLoots.Add(Loot_Enum.Carton, 90);
-        playerLoots.Add(Loot_Enum.Clous, 90);
-        playerLoots.Add(Loot_Enum.Elastique, 90);
-        playerLoots.Add(Loot_Enum.Pattate, 90);
-        playerLoots.Add(Loot_Enum.Petard, 90);
-        playerLoots.Add(Loot_Enum.Plaque_de_metal, 90);
-        playerLoots.Add(Loot_Enum.Planche_de_bois, 90);
-        playerLoots.Add(Loot_Enum.Oeuf_Pourri, 90);
-        playerLoots.Add(Loot_Enum.Tube_plastique, 90);
-        playerLoots.Add(Loot_Enum.Scotch, 90);
-        playerLoots.Add(Loot_Enum.Ustensile, 90);
+        playerLoots.Add(Loot_Enum.Bonbonne_de_gaz, 20);
+        playerLoots.Add(Loot_Enum.Carton, 20);
+        playerLoots.Add(Loot_Enum.Clous, 20);
+        playerLoots.Add(Loot_Enum.Elastique, 20);
+        playerLoots.Add(Loot_Enum.Pattate, 20);
+        playerLoots.Add(Loot_Enum.Petard, 20);
+        playerLoots.Add(Loot_Enum.Plaque_de_metal, 20);
+        playerLoots.Add(Loot_Enum.Planche_de_bois, 20);
+        playerLoots.Add(Loot_Enum.Oeuf_Pourri, 20);
+        playerLoots.Add(Loot_Enum.Tube_plastique, 20);
+        playerLoots.Add(Loot_Enum.Scotch, 20);
+        playerLoots.Add(Loot_Enum.Ustensile, 20);
 
         lootTx = new Dictionary<Loot_Enum, Texture2D>();
         lootTx.Add(Loot_Enum.Bonbonne_de_gaz, txGaz);
@@ -194,7 +194,7 @@ public class GameStateManager : MonoBehaviour
 			if(a_gameState == GameStates.JeuDeShoot)
 			{
 				a_zoneDeJeu++;
-				Debug.Log (a_zoneDeJeu);
+				//Debug.Log (a_zoneDeJeu);
 				Application.LoadLevel("ScenePrincipale");
 			}else if(a_gameState == GameStates.MenuDeCraft)
 			{
@@ -270,9 +270,9 @@ public class GameStateManager : MonoBehaviour
     public void AddQuantite(Loot_Enum type, int quantite)
     {
         playerLoots[type] += quantite;
-		Debug.Log ("ajout de " + quantite +  " de " + type);
+		/*Debug.Log ("ajout de " + quantite +  " de " + type);
 		Debug.Log ("quantité un fois ajouté " + getQuantite(type));
-		Debug.Log ("quantité de patate " + getQuantite(Loot_Enum.Pattate));
+		Debug.Log ("quantité de patate " + getQuantite(Loot_Enum.Pattate));*/
     }
 
     public int getQuantite(Loot_Enum type)

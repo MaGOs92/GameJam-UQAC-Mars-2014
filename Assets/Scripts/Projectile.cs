@@ -41,7 +41,7 @@ public class Projectile : MonoBehaviour {
         if(!hostile){
             foreach (var a in FindObjectsOfType<Ennemy>())
             {
-                if (Vector3.Distance(a.transform.position, transform.position) < a.rayonCollision)
+                if (Vector3.Distance(a.transform.position, transform.position) < 0.9/*a.rayonCollision*/)
                 {
                     Destroy(a.gameObject);
 					EnnemyManager.killed++;
@@ -52,4 +52,18 @@ public class Projectile : MonoBehaviour {
             }
         }
 	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		/*if(!hostile){
+			Debug.Log ("coucou");
+			Destroy(other.gameObject);
+			EnnemyManager.killed++;
+			GameStateManager.Instance.setScore(GameStateManager.Instance.getScore() + 100);
+			CreeationdeLoot.Instance.CreerLoot(this.transform.position,(int)(Random.value*5+1));
+			Destroy(gameObject);
+		}*/
+
+	}
+
 }

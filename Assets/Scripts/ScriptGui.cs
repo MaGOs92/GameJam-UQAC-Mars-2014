@@ -47,7 +47,7 @@ public class ScriptGui : MonoBehaviour
 		int resPatate = GameStateManager.Instance.getQuantite(Loot_Enum.Pattate);
 		int resOeuf = GameStateManager.Instance.getQuantite(Loot_Enum.Oeuf_Pourri);
 		int resPetard = GameStateManager.Instance.getQuantite(Loot_Enum.Petard);
-		Debug.Log("du coup on a " + GameStateManager.Instance.getQuantite(Loot_Enum.Petard) + " dans cette scène");
+		//Debug.Log("du coup on a " + GameStateManager.Instance.getQuantite(Loot_Enum.Petard) + " dans cette scène");
 
 
 

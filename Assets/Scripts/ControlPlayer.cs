@@ -285,6 +285,7 @@ public class ControlPlayer : MonoBehaviour
                         AudioSource.PlayClipAtPoint(oeuf, transform.position);
                     }
                     break;
+			case ArmeEnum.LancePetard:
                     if (GameStateManager.Instance.getQuantite(Loot_Enum.Petard) > 0)
                     {
                         tir = (Transform)Instantiate(a_prefabPetard);
@@ -304,6 +305,11 @@ public class ControlPlayer : MonoBehaviour
             proj.transform.Rotate(new Vector3(1, 0, 0), 90);
 
         }
+
+		if (Input.GetKey(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
     }
 
     public ArmeEnum getSelectedArme()
